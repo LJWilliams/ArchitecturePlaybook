@@ -17,23 +17,23 @@ parts:
   chapters:
   - file: architecture-references
   - file: capabilities
-  - file: templates
+  - file: templates/README
     sections:
-    - file: arplaybook-template-businessarchitecture
+    - file: templates/arplaybook-template-businessarchitecture
       title: 'TEMPLATE: Business Architecture '
-    - file: arplaybook-template-architecturedecisions
+    - file: templates/arplaybook-template-architecturedecisions
       title: 'TEMPLATE: Architecture decisions'
-    - file: arplaybook-template-documentinformation
+    - file: templates/arplaybook-template-documentinformation
       title: 'TEMPLATE: Basic SA Document'
-    - file: arplaybook-template-requirements
+    - file: templates/arplaybook-template-requirements
       title: 'TEMPLATE: Requirements'
-    - file: sad_template
+    - file: templates/sad_template
       title: TEMPLATE:Software Architecture
-    - file: arplaybook-template-businesscase
+    - file: templates/arplaybook-template-businesscase
       title: TEMPLATE:Business Case
-  - file: notebooks
+  - file: notebooks/README
     sections:
-    - file: reliability.ipynb
+    - file: notebooks/reliability.ipynb
 - caption: Join
   chapters:
   - file: help
